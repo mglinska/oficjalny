@@ -1,0 +1,34 @@
+.dark-blue-txt{
+    color: #333D83;
+}
+
+.grey-blue-back{
+    background-color:#7C9BCD !important;
+    color: white !important;
+}
+
+.grey-back{
+    background-color:#EDF1F8;
+    color: darkblue;
+}
+
+.submit-btn{
+    background-color:#333D83;
+    color: #E6E6E6;
+    font-weight: bold;
+    border: none;
+    margin: 15px;
+}
+
+.name{
+    margin: 20px;
+}
+
+.white-space{
+    background-color: white;
+    padding: 20px;
+}
+
+.txt-center{
+    text-align: center;
+}

@@ -1,0 +1,216 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-zut
+{
+    width: 360px;
+}
+
+.footer
+{
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.container-info
+{
+    text-align: center;
+}
+
+.logo-wi
+{
+    width: 275px;
+}
+
+#login-title, #student-title, #teacher-title, #student-exam-code-title
+{
+    color: rgb(38, 58, 173);
+}
+
+#student-exam-code-title
+{
+    font-weight: bold;
+}
+
+.login-box, .student-box, .teacher-box
+{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-inputs, #pass-inputs, #exam-code-input
+{
+    font-size: 25px;
+    padding: 10px 5px;
+    margin: 10px auto;
+    border: 3px solid rgb(143, 188, 238);
+    border-radius: 5px;
+}
+
+#exam-code-input
+{
+    border: 1px solid rgb(220, 236, 255);
+    border-radius: 0;
+}
+
+#login-submit, #go-back, #exam-code-submit
+{
+    background-color: #1ba120;
+    color: white;
+    font-size: 22px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s transform linear;
+}
+
+#go-back, #exam-code-submit
+{
+    background-color: rgb(143, 188, 238);
+    font-weight: bold;
+}
+
+#login-submit:hover, #go-back:hover, #exam-code-submit:hover
+{
+    background-color: #098000;
+    transform: scale(1.1);
+    transition: 0.3s transform linear;
+}
+
+#go-back:hover, #exam-code-submit:hover
+{
+    background-color: rgb(116, 163, 218);
+}
+  
+.side-bar
+{
+    background-color: rgb(46, 47, 128);
+    padding: 15px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+  
+.name-box
+{
+    background-color: rgb(124, 151, 211);
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+  
+.student-panel, .teacher-panel
+{
+    border: 1px solid rgb(143, 188, 238);
+}
+
+.student-form-box, .teacher-form-box, .student-exam-code-panel
+{
+    background-color: #edf1f8;
+}
+
+.student-btns, .teacher-btns
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(38, 58, 173);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition: 0.3s transform linear;
+}
+
+.student-btns:hover, .teacher-btns:hover
+{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s transform linear;
+}
+
+.panel-icons
+{
+    font-size: 70px;
+}
+
+.threshold-pool-table-head
+{
+    background-color: #7C9BCD !important;
+    border: solid 10px rgb(124, 155, 205);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.threshold-pool-table-element
+{
+    background-color: #edf1f8 !important;
+    border: solid 0.5px rgb(213, 223, 239);
+    margin: 3px;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 47, 128);
+}
+
+.table-spacing3{
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: solid 0.5px rgb(213, 223, 239);
+}
+
+#threshold-center{
+    margin: 0 auto;
+}
+
+.threshold-pool-table-box
+{
+    background-color: white;
+    border: solid 0.5px rgb(213, 223, 239);
+    position: relative;
+}
+.filters{
+    text-align: center;
+    margin: 10px;
+}
+
+#filters-button{
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s transform linear;
+    margin: 10px auto;
+    font-size: 16px;
+    color: rgb(143, 188, 238);
+}
+
+
+#nazwaProgu
+{
+    text-align: center;
+    font-size:20px;
+    background-color: white;
+    border: solid 2px rgb(195, 209, 233);
+    margin: 10px auto;
+    color: rgb(195, 209, 233);
+
+}
+
+.threshold-right
+	  
+{
+    margin-right: 100px;
+					
+}

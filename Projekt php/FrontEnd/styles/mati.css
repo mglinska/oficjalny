@@ -1,0 +1,19 @@
+.center{
+    margin: auto;
+}
+
+.buttons-filters
+{
+    background-color: #ffffff !important;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.table-buttons
+{
+    background-color: #ffffff !important;
+    border: none;
+    font-size: 20px;
+    color: #7C9BCD !important;
+}
